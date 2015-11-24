@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
+        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/adapter-rxjava/2.0.0-beta1/27db6ccd014c866500af30d92fbfad0e3cc99ee8/adapter-rxjava-2.0.0-beta1.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-99e3031b348e51ae4ff0a2dc706ec3f2e3418fc6.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-0d89115072f47100a5e59ea65e0fa75badbb544e.jar" />
+        sha1="27db6ccd014c866500af30d92fbfad0e3cc99ee8">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0-beta1-bb3c290f70282a498ac806a1ce6d5a58f49a53a1.jar" />
     </item>
     <item
         jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta1/3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a/converter-gson-2.0.0-beta1.jar"
@@ -30,32 +23,46 @@
         <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.0-cfe201e503863ebfb60325ad87e50aea9e471f82.jar" />
     </item>
     <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/okio-1.6.0-8ad705e61ef80d7d88fb06b85766344d4c3226bd.jar" />
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-e99bb2f6a14cb8d82bd4568ac4d2034a6a1771ac.jar" />
     </item>
     <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/adapter-rxjava/2.0.0-beta1/27db6ccd014c866500af30d92fbfad0e3cc99ee8/adapter-rxjava-2.0.0-beta1.jar"
+        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="27db6ccd014c866500af30d92fbfad0e3cc99ee8">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0-beta1-bb3c290f70282a498ac806a1ce6d5a58f49a53a1.jar" />
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-9b8bdf0693132ac61f6762866075c6d982058e7a.jar" />
     </item>
     <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
+        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-27f5cdf67d1b2b22307ffefa860ef66884868d41.jar" />
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-99e3031b348e51ae4ff0a2dc706ec3f2e3418fc6.jar" />
     </item>
     <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
+        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-b6b652e1e015e8161b11bf6f90d7ab91757334d6.jar" />
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-0d89115072f47100a5e59ea65e0fa75badbb544e.jar" />
+    </item>
+    <item
+        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ecd4b74c5891ab222ff7285ceb8bde3c0a3ce809.jar" />
+    </item>
+    <item
+        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/io.realm/realm-android/0.85.0/a05f1fb4a2a2453642b3a9e50fd0498379a82621/realm-android-0.85.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a05f1fb4a2a2453642b3a9e50fd0498379a82621">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/realm-android-0.85.0-0ce1fd2ec1453880c9c722bd6731fac46aa7ac98.jar" />
     </item>
     <item
         jar="/Users/bingraa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.0/support-annotations-23.1.0.jar"
@@ -63,6 +70,13 @@
         revision="22.0.1"
         sha1="92e3fc113ec3ee36b64603a38857b95700025633">
         <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.0-bdd2745710ae197b9feaea76540ab59a2ad714ec.jar" />
+    </item>
+    <item
+        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/okio-1.6.0-8ad705e61ef80d7d88fb06b85766344d4c3226bd.jar" />
     </item>
     <item
         jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta1/53b5be42d6cf719ac1431b9aa9a4d5ab78856148/retrofit-2.0.0-beta1.jar"
@@ -79,25 +93,18 @@
         <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/rxjava-1.0.14-780315355d75d55befc7a237f2d36895b87d9eba.jar" />
     </item>
     <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
+        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-e99bb2f6a14cb8d82bd4568ac4d2034a6a1771ac.jar" />
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-27f5cdf67d1b2b22307ffefa860ef66884868d41.jar" />
     </item>
     <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/jars/classes.jar"
+        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-9b8bdf0693132ac61f6762866075c6d982058e7a.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ecd4b74c5891ab222ff7285ceb8bde3c0a3ce809.jar" />
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-b6b652e1e015e8161b11bf6f90d7ab91757334d6.jar" />
     </item>
 
 </items>

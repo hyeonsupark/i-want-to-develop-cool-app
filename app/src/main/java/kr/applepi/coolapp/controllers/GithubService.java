@@ -9,7 +9,7 @@ import rx.Observable;
 /**
  * Created by bingraa on 15. 11. 9..
  */
-public interface Github {
+public interface GithubService {
     @GET("users/{username}")
     Observable<GithubUser> getGithubUser(@Path("username") String username);
 }
