@@ -49,4 +49,6 @@ dependencies {
     compile 'com.squareup.retrofit:adapter-rxjava:2.0.0-beta1'
     compile 'com.squareup.retrofit:converter-gson:2.0.0-beta1'
 
+    compile 'io.realm:realm-android:0.85.0'
+
 }
