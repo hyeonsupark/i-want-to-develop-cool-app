@@ -2,116 +2,116 @@
 <items version="2" >
 
     <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-e99bb2f6a14cb8d82bd4568ac4d2034a6a1771ac.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.0.14/898f9ab61e2a23afd615f0b0389478bec86f49f9/rxjava-1.0.14.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/rxjava-1.0.14-780315355d75d55befc7a237f2d36895b87d9eba.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/gson-2.3.1-ecd4b74c5891ab222ff7285ceb8bde3c0a3ce809.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-bb4493fb851d91a436e7786a0bbc3a6556d6c4d9.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.5.0/4de2b4ed3445c37ec1720a7d214712e845a24636/okhttp-2.5.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/okhttp-2.5.0-0d89115072f47100a5e59ea65e0fa75badbb544e.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/io.realm/realm-android/0.85.0/a05f1fb4a2a2453642b3a9e50fd0498379a82621/realm-android-0.85.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a05f1fb4a2a2453642b3a9e50fd0498379a82621">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/realm-android-0.85.0-0ce1fd2ec1453880c9c722bd6731fac46aa7ac98.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/okio-1.6.0-8ad705e61ef80d7d88fb06b85766344d4c3226bd.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/adapter-rxjava/2.0.0-beta1/27db6ccd014c866500af30d92fbfad0e3cc99ee8/adapter-rxjava-2.0.0-beta1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="27db6ccd014c866500af30d92fbfad0e3cc99ee8">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.0.0-beta1-bb3c290f70282a498ac806a1ce6d5a58f49a53a1.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-65e8cf2bfb0f255e785714d51d1c536197e3cc31.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-3af6b3fee6cb0c2701882407993cd3ab2cd49ae6.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta1/53b5be42d6cf719ac1431b9aa9a4d5ab78856148/retrofit-2.0.0-beta1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta1-94d0118a74d0c99403ce963200e965fa669c0f8c.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-4f4e1da22daf25713c88716efc22b751b4362756.jar" />
-    </item>
-    <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.1/jars/classes.jar"
+        jar="D:\AndroidProject\Cool-App\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="5e412e954a24c5310a459c09870e4e2081aceb03">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-8b22825befa4f960bc031577801cdf1414018257.jar" />
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\classes-ac8fee22b0f74e9808419062bc18bf4638b8dc8e.jar" />
     </item>
     <item
-        jar="/Users/bingraa/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\io.realm\realm-android\0.85.0\a05f1fb4a2a2453642b3a9e50fd0498379a82621\realm-android-0.85.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-65c4b16bfcf1f8f0440409f36c6029d023e5dd7f.jar" />
+        sha1="a05f1fb4a2a2453642b3a9e50fd0498379a82621">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\realm-android-0.85.0-ac2ca4f81e598e443f10cd9e06eb02299a9ce16d.jar" />
     </item>
     <item
-        jar="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jar="D:\AndroidProject\Cool-App\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.0.1\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/classes-b0bd1c7dbec6243cec4e1b2e0326095e358917d0.jar" />
+        sha1="aa81bfe8c5cc88c2472ca936ae71f0c3dd1766df">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\classes-3a1f7a426fde8fcf075e8e4bbc11e42f3becebed.jar" />
     </item>
     <item
-        jar="/Users/bingraa/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-gson/2.0.0-beta1/3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a/converter-gson-2.0.0-beta1.jar"
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.0.14\898f9ab61e2a23afd615f0b0389478bec86f49f9\rxjava-1.0.14.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="898f9ab61e2a23afd615f0b0389478bec86f49f9">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\rxjava-1.0.14-6a892958dfdb4fea13dc3086884817869ca44699.jar" />
+    </item>
+    <item
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta1\53b5be42d6cf719ac1431b9aa9a4d5ab78856148\retrofit-2.0.0-beta1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="53b5be42d6cf719ac1431b9aa9a4d5ab78856148">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta1-ecd8c609aedd9df67242e834bd246e485bda7fc7.jar" />
+    </item>
+    <item
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-gson\2.0.0-beta1\3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a\converter-gson-2.0.0-beta1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="3de922cdbf9bb3a6f72f6b6b3327cfb348cf445a">
-        <dex dex="/Users/bingraa/Desktop/android-project/CoolApp/app/build/intermediates/pre-dexed/debug/converter-gson-2.0.0-beta1-d5c7c2470bf13b1a7472b895dfced4752caee578.jar" />
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\converter-gson-2.0.0-beta1-6125bdcbc5084eca80d902198005435fac112e2b.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProject\Cool-App\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\classes-b1eea7b7df061d2d5cb87353930bd0100d474d0e.jar" />
+    </item>
+    <item
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\gson-2.3.1-05e63406d841987bd97aabbca09660e6d6599c94.jar" />
+    </item>
+    <item
+        jar="D:\android-sdks\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1-af49c5139274aa2f807d06fafde1bf7d80431e45.jar" />
+    </item>
+    <item
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\okio-1.6.0-1cbededa0284a07a49f7f6a1c2056bd8f8d6486d.jar" />
+    </item>
+    <item
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\adapter-rxjava\2.0.0-beta1\27db6ccd014c866500af30d92fbfad0e3cc99ee8\adapter-rxjava-2.0.0-beta1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="27db6ccd014c866500af30d92fbfad0e3cc99ee8">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\adapter-rxjava-2.0.0-beta1-ac6759c032d825bd0d4dd0bd3a0c42cdaafdea18.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProject\Cool-App\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\classes-6a63c1f61ecf1af56f42e4f210c3b81513550954.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProject\Cool-App\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\classes-2f6a28534e3537d367c3ee7baacb22a6567464af.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProject\Cool-App\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\classes-6ebfc376d11df4b3fcefe7dfee597f114a61be26.jar" />
+    </item>
+    <item
+        jar="D:\AndroidProject\Cool-App\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1-48fce1184b74d6b569078e971521831486987081.jar" />
+    </item>
+    <item
+        jar="C:\Users\droid\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.5.0\4de2b4ed3445c37ec1720a7d214712e845a24636\okhttp-2.5.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4de2b4ed3445c37ec1720a7d214712e845a24636">
+        <dex dex="D:\AndroidProject\Cool-App\app\build\intermediates\pre-dexed\debug\okhttp-2.5.0-ce180713aaa83244346dbc7dda1cb3963c946d82.jar" />
     </item>
 
 </items>

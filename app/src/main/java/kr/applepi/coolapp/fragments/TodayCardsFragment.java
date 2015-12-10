@@ -62,8 +62,8 @@ public class TodayCardsFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
 
-        CardFragment card = CardFragment.newInstance("asdf");
-        CardFragment card2 = CardFragment.newInstance("asdfasdf");
+        CardFragment card = CardFragment.newInstance(R.drawable.profile1, "곧3", "좀이따지울거에요", "10대 후반, 서울, 학생", "75%");
+        CardFragment card2 = CardFragment.newInstance(R.drawable.profile2, "착함 차분한 편 잘웃음", "뚜뚜루뚜뚜뚣", "20대 초반, 경기, 대학생", "67%");
         FragmentTransaction transaction = getActivity().getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.fragment_today_card_1, card);
         transaction.replace(R.id.fragment_today_card_2, card2);

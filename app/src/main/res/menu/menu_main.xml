@@ -1,6 +1,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/action_my_info"
+        android:orderInCategory="100"
+        android:title="@string/action_my_info"
+        android:icon="@drawable/ic_myinfo"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_store"
+        android:orderInCategory="101"
+        android:title="@string/action_store"
+        android:icon="@drawable/ic_store"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="102"
+        android:title="@string/action_notification"
+        android:icon="@drawable/ic_noti"
+        app:showAsAction="always" />
 </menu>
