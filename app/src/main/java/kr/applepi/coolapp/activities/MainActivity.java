@@ -1,51 +1,45 @@
 package kr.applepi.coolapp.activities;
 
 import android.os.Bundle;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import com.google.gson.ExclusionStrategy;
 import com.google.gson.FieldAttributes;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
-import io.realm.Realm;
 import io.realm.RealmObject;
 import kr.applepi.coolapp.R;
-import kr.applepi.coolapp.controllers.GithubService;
-import kr.applepi.coolapp.models.GithubUser;
+import kr.applepi.coolapp.fragments.TodayCardsFragment;
 import retrofit.GsonConverterFactory;
 import retrofit.Retrofit;
 import retrofit.RxJavaCallAdapterFactory;
-import rx.Observable;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.schedulers.Schedulers;
 
-public class MainActivity extends AppCompatActivity {
-    private Realm realm;
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private Button btnSearch, btnInsert;
-    private EditText etName;
-    private TextView tvBody;
+    private final int TAB_TODAY_CARDS = 1;
+    private final int TAB_MARKER = 2;
+    private final int TAB_ALL_CARDS = 3;
+    private final int TAB_CHAT = 4;
+    private final int TAB_SQUARE = 5;
+
+    private int currentState = 1;
 
     private Retrofit githubController;
 
-    private String body = "Name : %s\nurl : %s\nEmail : %s";
+    private LinearLayout btnTabTodayCards, btnTabMarker, btnTabAllCards, btnTabChat, btnTabSquare;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        realm = Realm.getInstance(this);
+        initialize();
 
-        btnSearch = (Button) findViewById(R.id.btn_search);
-        etName = (EditText) findViewById(R.id.et_name);
-        tvBody = (TextView) findViewById(R.id.tv_body);
         Gson gson = new GsonBuilder()
                 .setExclusionStrategies(new ExclusionStrategy() {
                     @Override
@@ -65,23 +59,20 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .baseUrl("https://api.github.com/")
                 .build();
+        TodayCardsFragment todayCardsFragment = TodayCardsFragment.newInstance("","");
 
-        btnSearch.setOnClickListener((view) -> {
-            String id = etName.getText().toString();
-            GithubService github = githubController.create(GithubService.class);
-            Observable<GithubUser> githubUser = github.getGithubUser(id);
-            githubUser.subscribeOn(Schedulers.newThread())
-                    .observeOn(AndroidSchedulers.mainThread())
-                    .subscribe(userData -> {
-                        if(!userData.getName().equals("")) {
-                            tvBody.setText(String.format(body, userData.getName(), userData.getHtml_url(), userData.getEmail()));
-                        }
-                    }, error -> {
-                        Toast.makeText(getApplicationContext(), "Invalid User", Toast.LENGTH_SHORT).show();
-                    }, () -> {
-                        Toast.makeText(getApplicationContext(), "Complete", Toast.LENGTH_SHORT).show();
-                    });
-        });
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.main_container, todayCardsFragment);
+        transaction.commit();
+
+    }
+
+    private void initialize() {
+        btnTabTodayCards = (LinearLayout) findViewById(R.id.btn_tab_today_cards);
+        btnTabMarker = (LinearLayout) findViewById(R.id.btn_tab_marker);
+        btnTabAllCards = (LinearLayout) findViewById(R.id.btn_tab_all_cards);
+        btnTabChat = (LinearLayout) findViewById(R.id.btn_tab_chat);
+        btnTabSquare = (LinearLayout) findViewById(R.id.btn_tab_square);
 
     }
 
@@ -105,5 +96,24 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch(view.getId()) {
+            case R.id.btn_tab_today_cards:
+
+                break;
+            case R.id.btn_tab_marker:
+                break;
+            case R.id.btn_tab_all_cards:
+                break;
+            case R.id.btn_tab_chat:
+                break;
+            case R.id.btn_tab_square:
+                break;
+            default:
+                break;
+        }
     }
 }
