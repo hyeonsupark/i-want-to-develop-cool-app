@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/sky</item>
+        <item name="colorPrimaryDark">@color/deep_sky</item>
+    </style>
+
+</resources>
