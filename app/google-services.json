@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "519921610925",
+    "firebase_url": "https://coolapp-b2bfd.firebaseio.com",
+    "project_id": "coolapp-b2bfd",
+    "storage_bucket": "coolapp-b2bfd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519921610925:android:f67244068564c2c3",
+        "android_client_info": {
+          "package_name": "kr.applepi.coolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519921610925-6s3f3erca7g73gva1lt1g7bqkcau1erf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.applepi.coolapp",
+            "certificate_hash": "C9FFC99C51F62B818FCA2B47432D702B749DB59E"
+          }
+        },
+        {
+          "client_id": "519921610925-9cnjk05euhhettqhn190hf6dn9i9kesk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxS0rYPMRG1wIVc0vAfulkQiNZ5zYcwW4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519921610925-9cnjk05euhhettqhn190hf6dn9i9kesk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
