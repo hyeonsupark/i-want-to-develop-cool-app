@@ -20,8 +20,6 @@ import kr.applepi.coolapp.R;
 public class LoginActivity extends AppCompatActivity {
 
     private FirebaseAuth auth;
-    private FirebaseAuth.AuthStateListener mAuthListener;
-
 
     private EditText etEmail, etPassword;
     private Button btnLogin;
@@ -37,6 +35,12 @@ public class LoginActivity extends AppCompatActivity {
         etPassword = (EditText) findViewById(R.id.et_password);
         btnLogin = (Button) findViewById(R.id.btn_login);
 
+        if(auth.getCurrentUser() != null) {
+            Intent intent = new Intent(LoginActivity.this, StorageActivity.class);
+            startActivity(intent);
+            finish();
+        }
+
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -47,13 +51,14 @@ public class LoginActivity extends AppCompatActivity {
                         .addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
-                                Toast.makeText(LoginActivity.this, "Login Success",
-                                        Toast.LENGTH_SHORT).show();
+                                if(task.isSuccessful()) {
+                                    Toast.makeText(LoginActivity.this, "Login Success",
+                                            Toast.LENGTH_SHORT).show();
 
-                                Intent intent = new Intent(LoginActivity.this, StorageActivity.class);
-                                startActivity(intent);
-
-                                if (!task.isSuccessful()) {
+                                    Intent intent = new Intent(LoginActivity.this, StorageActivity.class);
+                                    startActivity(intent);
+                                    finish();
+                                } else {
                                     Toast.makeText(LoginActivity.this, "Authentication failed.",
                                             Toast.LENGTH_SHORT).show();
                                 }
@@ -62,6 +67,8 @@ public class LoginActivity extends AppCompatActivity {
                         });
             }
         });
+
+
 
     }
 }
